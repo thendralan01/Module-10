@@ -23,7 +23,7 @@ To create a Python program that:
 
 ## Program
 from queue import LifoQueue<br>
-stack = LifoQueue(maxsize=5)<br>
+stack = LifoQueue(maxsize=7)<br>
 n= int(input())<br>
 for i in range(n):<br>
     stack.put(input())<br>
